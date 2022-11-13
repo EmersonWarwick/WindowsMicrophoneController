@@ -1,0 +1,15 @@
+﻿<Page
+    x:Class="MicrophoneController.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MicrophoneController"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Width="200" Height="70">
+
+    <Grid Width="200" Height="70">
+        <Button x:Name="MicrophoneControl" Content="Microphone" Click="MicrophoneControl_Click" HorizontalAlignment="Center" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" Height="50" Width="180" FontWeight="Bold" FontStyle="Normal" FontFamily="Dubai Medium" FontSize="24">
+        </Button>
+    </Grid>
+</Page>
